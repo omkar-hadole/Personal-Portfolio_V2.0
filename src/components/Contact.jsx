@@ -31,7 +31,24 @@ function Contact() {
             <h4>Get in touch</h4>
             <p>Let’s connect and create something that not only works—but inspires.</p>
           </div>
-          <form className="from" action="https://formsubmit.co/omkarhadole.contact@gmail.com" method="POST">
+          <form className="from" onSubmit={(e) => {
+            e.preventDefault();
+            const formData = new FormData(e.target);
+            setLoading(true);
+            fetch("https://formsubmit.co/ajax/omkarhadole.contact@gmail.com", {
+              method: "POST",
+              headers: { 'Accept': 'application/json' },
+              body: formData
+            })
+            .then(response => {
+              if (response.ok) {
+                setSubmitted(true);
+                e.target.reset(); // reset the form
+              }
+            })
+            .catch(error => console.error('Error:', error))
+            .finally(() => setLoading(false));
+          }}>
             <div>
             <input type="text" name="firstName" placeholder='First Name' required/><input type="text" name="lastName" placeholder='Last Name' required/>
             </div>
