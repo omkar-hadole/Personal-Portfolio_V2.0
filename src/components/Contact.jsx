@@ -35,7 +35,7 @@ function Contact() {
             e.preventDefault();
             const formData = new FormData(e.target);
             setLoading(true);
-            fetch("https://formsubmit.co/ajax/omkarhadole38@gmail.com", {
+            fetch("https://formsubmit.co/ajax/hadole.omkar2024@nst.rishihood.edu.in", {
               method: "POST",
               headers: { 'Accept': 'application/json' },
               body: formData
