@@ -31,7 +31,7 @@ function Contact() {
             <h4>Get in touch</h4>
             <p>Let’s connect and create something that not only works—but inspires.</p>
           </div>
-          <form className="from" action="https://formsubmit.co/omkarhadole38@gmail.com" method="POST">
+          <form className="from" action="https://formsubmit.co/team.zenova.manage@gmail.com" method="POST">
             <div>
             <input type="text" name="firstName" placeholder='First Name' required/><input type="text" name="lastName" placeholder='Last Name' required/>
             </div>
