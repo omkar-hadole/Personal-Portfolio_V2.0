@@ -8,6 +8,8 @@ import heroImage from '../assets/hero.png';
 import Vector from '../assets/Vector.svg';
 
 function Contact() {
+  const [submitted, setSubmitted] = useState(false);
+  const [loading, setLoading] = useState(false);
 
   return (
     <div id='contact' className="container contact-container">
