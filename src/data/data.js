@@ -1,0 +1,113 @@
+import heroImage from '../assets/hero.png'; 
+
+export const headData = [
+    {
+        id:1,
+        heroImage:heroImage,
+        intro: "Hello, I'm",
+        name: "Omkar Hadole",
+        profession: "A Student who",
+        hedingText1: "Judges a book",
+        hedingText2: "by its",
+        hedingSp:'cover...',
+        pText:'Because if the cover doesn’t impress, the code surely will !',
+    }
+]
+
+
+import ytIcon from '../assets/yt.png'; 
+
+export const aboutData = [
+    {
+        id:1,
+        yt:ytIcon,
+        title:'About Me',
+        infoText:"Currently, I'm a CS Student at",
+        link:'https://www.newtonschool.co/newton-school-of-technology-nst/home?utm_source=google_search&utm_medium=google&utm_campaign=canonical_results',
+        linkText:'NST',
+        aboutPara:"From Maharashtra, I’m specializing in Artificial Intelligence and Machine Learning while creating modern, user-friendly web experiences. I enjoy turning ideas into functional, aesthetic solutions that not only look great but solve real-world problems. Always exploring new tech, always building with purpose."
+    }
+
+]
+
+
+import cardIcon1 from '../assets/cardIcon1.png';
+import cardIcon2 from '../assets/cardIcon2.png';
+import cardIcon3 from '../assets/cardIcon3.png';
+import cardIcon4 from '../assets/cardIcon4.png';
+
+export const experienceData = [
+    {
+        id:1,
+        icon:cardIcon1,
+        cardName:'HTML',
+        cardInfo:'The backbone of my web projects — clean, semantic, and accessible by design.',
+        cardLink:'#'
+    },
+    {
+        id:2,
+        icon:cardIcon2,
+        cardName:'Python',
+        cardInfo:'The core of my problem-solving — I use it mainly for DSA and logic-building practice.',
+        cardLink:'#'
+    },
+    {
+        id:3,
+        icon:cardIcon3,
+        cardName:'CSS',
+        cardInfo:'I use CSS to bring life to my designs — responsive, modern, and visually sharp.',
+        cardLink:'#'
+    },
+    {
+        id:4,
+        icon:cardIcon4,
+        cardName:'JavaScript',
+        cardInfo:'Adds interactivity to my web apps — from UI logic to dynamic content handling.',
+        cardLink:'#'
+    }
+] 
+
+
+import project1 from '../assets/project1.svg';
+import project2 from '../assets/project2.svg';
+import project3 from '../assets/project3.svg';
+import project4 from '../assets/project4.svg';
+
+export const projectsData = [
+    {
+        id:1,
+        img:project1,
+        name:'Zenova.one',
+        des:'A website that showcases my skills and projects as a frontend developer. It includes sections for my resume, projects, and contact information.',
+        prokectlink:'https://zenova.one/',
+        figmalink:'https://www.figma.com/design/TIOwDLyZw3JqCHeVZgtfs8/Zenova?node-id=216-22481&t=amEz1TUpVFNbqttS-1',
+        githublink:'https://github.com/omkar-hadole/Zenova'
+    },
+    {
+        id:2,
+        img:project2,
+        name:'Personal Portfolio v1.0',
+        des:'A personal portfolio website that showcases my skills, projects, and experience. It includes sections for my resume, projects, and contact information.',
+        prokectlink:'https://omkar-portfolio-v1-0.vercel.app/',
+        figmalink:'https://www.figma.com/design/PpNRiuSW7JXuv97Z5CqBDR/Omkar-s-Portfolio-V1.0?node-id=0-1&t=X5WJ499awGRyy1XV-1',
+        githublink:'https://github.com/omkar-hadole/Personal-Portfolio_V1.0'
+    },
+    {
+        id:3,
+        img:project3,
+        name:'Tic Tac Toe',
+        des:'A simple Tic Tac Toe game built using React. It allows users to play against each other or against the computer.',
+        prokectlink:'https://tic-tac-toe-game-omkar.vercel.app/',
+        figmalink:'',
+        githublink:'https://github.com/omkar-hadole/Tic-Tac-Toe-Game'
+    },
+    {
+        id:4,
+        img:project4,
+        name:'Capstone Project',
+        des:'A capstone project that showcases my skills and knowledge in web development. It includes sections for my resume, projects, and contact information.',
+        prokectlink:'https://travel-portfolio-ecru.vercel.app/',
+        figmalink:'',
+        githublink:'https://github.com/omkar-hadole/Travel-Portfolio'
+    }
+] 
