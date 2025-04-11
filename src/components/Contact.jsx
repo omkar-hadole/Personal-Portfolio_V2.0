@@ -8,8 +8,6 @@ import heroImage from '../assets/hero.png';
 import Vector from '../assets/Vector.svg';
 
 function Contact() {
-  const [submitted, setSubmitted] = useState(false);
-  const [loading, setLoading] = useState(false);
 
   return (
     <div id='contact' className="container contact-container">
@@ -31,24 +29,7 @@ function Contact() {
             <h4>Get in touch</h4>
             <p>Let’s connect and create something that not only works—but inspires.</p>
           </div>
-          <form className="from" onSubmit={(e) => {
-            e.preventDefault();
-            const formData = new FormData(e.target);
-            setLoading(true);
-            fetch("https://formsubmit.co/ajax/hadole.omkar2024@nst.rishihood.edu.in", {
-              method: "POST",
-              headers: { 'Accept': 'application/json' },
-              body: formData
-            })
-            .then(response => {
-              if (response.ok) {
-                setSubmitted(true);
-                e.target.reset(); // reset the form
-              }
-            })
-            .catch(error => console.error('Error:', error))
-            .finally(() => setLoading(false));
-          }}>
+          <form className="from" action="https://formsubmit.co/omkarhadole38@gmail.com" method="POST">
             <div>
             <input type="text" name="firstName" placeholder='First Name' required/><input type="text" name="lastName" placeholder='Last Name' required/>
             </div>
