@@ -17,11 +17,11 @@ function Contact() {
       <h2 className="contact-h2">Contact</h2>
       <p className='contact-para'>I’m always open to collaborating on projects that solve real problems with smart design and clean code.
       Have an idea, a question, or just want to say hi? Let’s connect and make something awesome together.</p>
-      <p className="email">omkarhadole38@gmail.com</p>
+      <p className="email">omkarhadole.contact@gmail.com</p>
       <div className="socials">
         <a href="https://www.linkedin.com/in/omkar-hadole/"><span><FaLinkedin /></span></a>
         <a href="https://github.com/omkar-hadole"><span><IoLogoGithub /></span></a>
-        <a href="mailto:omkarhadole38@gmail.com"><span><TbMailFilled /></span></a>
+        <a href="mailto:omkarhadole.contact@gmail.com"><span><TbMailFilled /></span></a>
         <a href="https://leetcode.com/u/omkar-hadole/"><span><SiLeetcode /></span></a>
       </div>
       </div>
@@ -31,7 +31,7 @@ function Contact() {
             <h4>Get in touch</h4>
             <p>Let’s connect and create something that not only works—but inspires.</p>
           </div>
-          <form className="from" action="https://formsubmit.co/omkarhadole38@gmail.com" method="POST">
+          <form className="from" action="https://formsubmit.co/omkarhadole.contact@gmail.com" method="POST">
             <div>
             <input type="text" name="firstName" placeholder='First Name' required/><input type="text" name="lastName" placeholder='Last Name' required/>
             </div>
