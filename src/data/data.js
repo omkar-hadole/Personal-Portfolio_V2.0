@@ -78,7 +78,7 @@ export const projectsData = [
         id:1,
         img:project1,
         name:'Zenova.one',
-        des:'A website that showcases my skills and projects as a frontend developer. It includes sections for my resume, projects, and contact information.',
+        des:'Zenova is a web platform designed for booking mentor sessions and preparing for exams and interviews. It features structured practice, referral rewards, and personalized guidance to support and streamline student preparation.',
         prokectlink:'https://zenova.one/',
         figmalink:'https://www.figma.com/design/TIOwDLyZw3JqCHeVZgtfs8/Zenova?node-id=216-22481&t=amEz1TUpVFNbqttS-1',
         githublink:'https://github.com/omkar-hadole/Zenova'
@@ -87,7 +87,7 @@ export const projectsData = [
         id:2,
         img:project2,
         name:'Personal Portfolio v1.0',
-        des:'A personal portfolio website that showcases my skills, projects, and experience. It includes sections for my resume, projects, and contact information.',
+        des:'My first attempt at designing a desktop-optimized personal portfolio. Focused on clean layout, visual aesthetics, and structure to explore the basics of portfolio design and web presentation.',
         prokectlink:'https://omkar-portfolio-v1-0.vercel.app/',
         figmalink:'https://www.figma.com/design/PpNRiuSW7JXuv97Z5CqBDR/Omkar-s-Portfolio-V1.0?node-id=0-1&t=X5WJ499awGRyy1XV-1',
         githublink:'https://github.com/omkar-hadole/Personal-Portfolio_V1.0'
@@ -96,7 +96,7 @@ export const projectsData = [
         id:3,
         img:project3,
         name:'Tic Tac Toe',
-        des:'A simple Tic Tac Toe game built using React. It allows users to play against each other or against the computer.',
+        des:'A responsive Tic Tac Toe game designed to practice game logic and UI design. This project helped me explore player turns, win conditions, and responsive interactions across devices.',
         prokectlink:'https://tic-tac-toe-game-omkar.vercel.app/',
         figmalink:'',
         githublink:'https://github.com/omkar-hadole/Tic-Tac-Toe-Game'
@@ -105,7 +105,7 @@ export const projectsData = [
         id:4,
         img:project4,
         name:'Capstone Project',
-        des:'A capstone project that showcases my skills and knowledge in web development. It includes sections for my resume, projects, and contact information.',
+        des:'A responsive web application built as my capstone project at Newton School of Technology. It focuses on creating an intuitive user interface, smooth functionality, and seamless experience across all devices.',
         prokectlink:'https://travel-portfolio-ecru.vercel.app/',
         figmalink:'',
         githublink:'https://github.com/omkar-hadole/Travel-Portfolio'
