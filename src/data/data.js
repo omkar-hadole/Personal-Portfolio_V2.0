@@ -98,7 +98,7 @@ export const projectsData = [
         name:'Tic Tac Toe',
         des:'A responsive Tic Tac Toe game designed to practice game logic and UI design. This project helped me explore player turns, win conditions, and responsive interactions across devices.',
         prokectlink:'https://tic-tac-toe-game-omkar.vercel.app/',
-        figmalink:'',
+        figmalink:"#",
         githublink:'https://github.com/omkar-hadole/Tic-Tac-Toe-Game'
     },
     {
@@ -107,7 +107,7 @@ export const projectsData = [
         name:'Capstone Project',
         des:'A responsive web application built as my capstone project at Newton School of Technology. It focuses on creating an intuitive user interface, smooth functionality, and seamless experience across all devices.',
         prokectlink:'https://travel-portfolio-ecru.vercel.app/',
-        figmalink:'',
+        figmalink:'#',
         githublink:'https://github.com/omkar-hadole/Travel-Portfolio'
     }
 ] 

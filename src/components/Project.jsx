@@ -17,9 +17,33 @@ function Project() {
                 <h5>{name}</h5>
                 <small>{des}</small>
                 <div>
-                <a href={prokectlink}><LuMousePointerClick /></a>
-                <a href={figmalink}><LuMousePointerClick /></a>
-                <a href={githublink}><LuMousePointerClick /></a>
+                <a
+                  href={prokectlink}
+                  style={{ cursor: prokectlink === "#" ? "not-allowed" : "pointer" }}
+                  onClick={(e) => {
+                    if (prokectlink === "#") e.preventDefault();
+                  }}
+                >
+                  <LuMousePointerClick />
+                </a>
+                <a
+                  href={figmalink}
+                  style={{ cursor: figmalink === "#" ? "not-allowed" : "pointer" }}
+                  onClick={(e) => {
+                    if (figmalink === "#") e.preventDefault();
+                  }}
+                >
+                  <LuMousePointerClick />
+                </a>
+                <a
+                  href={githublink}
+                  style={{ cursor: githublink === "#" ? "not-allowed" : "pointer" }}
+                  onClick={(e) => {
+                    if (githublink === "#") e.preventDefault();
+                  }}
+                >
+                  <LuMousePointerClick />
+                </a>
                 </div>
               </article>
             );
