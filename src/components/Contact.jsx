@@ -24,7 +24,7 @@ function Contact() {
         <a href="mailto:omkarhadole.contact@gmail.com"><span><TbMailFilled /></span></a>
         <a href="https://leetcode.com/u/omkar-hadole/"><span><SiLeetcode /></span></a>
       </div>
-      </div>
+      </div> 
       <div className="contact-form">
         <div className="form-section">
           <div>

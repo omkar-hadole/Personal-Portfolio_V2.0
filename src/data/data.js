@@ -36,6 +36,7 @@ import cardIcon2 from '../assets/cardIcon2.png';
 import cardIcon3 from '../assets/cardIcon3.png';
 import cardIcon4 from '../assets/cardIcon4.png';
 
+
 export const experienceData = [
     {
         id:1,
@@ -72,6 +73,8 @@ import project1 from '../assets/project1.svg';
 import project2 from '../assets/project2.svg';
 import project3 from '../assets/project3.svg';
 import project4 from '../assets/project4.svg';
+import project5 from '../assets/project5.svg';
+import project6 from '../assets/project6.svg';
 
 export const projectsData = [
     {
@@ -95,6 +98,24 @@ export const projectsData = [
     {
         id:3,
         img:project3,
+        name:'MyBudgetBook',
+        des:'My first attempt at building a budget management web app. Focused on tracking expenses, visualizing data through charts, and creating a clean, intuitive layout for easy financial insights.',
+        prokectlink:'https://my-budget-book-v-2-0.vercel.app/',
+        figmalink:'https://www.figma.com/design/uTRG1fojZEOnuIOTIwPz2U/MyBudgetBook?node-id=0-1&t=jf4Pr7pjD1C410vb-1',
+        githublink:'#'
+    },
+    {
+        id:4,
+        img:project4,
+        name:'Netflix Clone',
+        des:'A Netflix-inspired web app built to explore responsive layouts and UI replication. Focused on visual styling, component structure, and mimicking real-world streaming platform design.',
+        prokectlink:'https://netflix-clone-livid-two-58.vercel.app/',
+        figmalink:'#',
+        githublink:'https://github.com/omkar-hadole/Netflix-Clone'
+    },
+    {
+        id:5,
+        img:project5,
         name:'Tic Tac Toe',
         des:'A responsive Tic Tac Toe game designed to practice game logic and UI design. This project helped me explore player turns, win conditions, and responsive interactions across devices.',
         prokectlink:'https://tic-tac-toe-game-omkar.vercel.app/',
@@ -102,8 +123,8 @@ export const projectsData = [
         githublink:'https://github.com/omkar-hadole/Tic-Tac-Toe-Game'
     },
     {
-        id:4,
-        img:project4,
+        id:6,
+        img:project6,
         name:'Capstone Project',
         des:'A responsive web application built as my capstone project at Newton School of Technology. It focuses on creating an intuitive user interface, smooth functionality, and seamless experience across all devices.',
         prokectlink:'https://travel-portfolio-ecru.vercel.app/',
